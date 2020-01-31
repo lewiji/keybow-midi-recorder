@@ -16,6 +16,7 @@ Node application to be used with the Pibow Keybow - experimental midi layout. Wh
 
 ## Planned features:
 
+* Create wrapper interface for key input and LED output
 * Use keybow LEDs to track recording
 * Use web MIDI to transport MIDI over the network
 * Automated recording - listen for MIDI in and silence to cut pieces of live playing
