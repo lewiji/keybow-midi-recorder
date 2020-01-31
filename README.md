@@ -8,8 +8,15 @@ Node application to be used with the Pibow Keybow - experimental midi layout. Wh
 * Use bottom-left key to start/stop recording MIDI
 * MIDI is output to SD card (can use rsync to sync across the network to your DAW PC)
 
+## Usage
+
+* Clone or copy repo onto the Keybow via SSH or file manager
+* Install node onto your Pi Zero WH: https://github.com/sdesalas/node-pi-zero
+* cd to repository folder and run `npm install` and then `npm run start`
+
 ## Planned features:
 
+* Use keybow LEDs to track recording
 * Use web MIDI to transport MIDI over the network
 * Automated recording - listen for MIDI in and silence to cut pieces of live playing
 * Web interface
